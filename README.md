@@ -13,7 +13,7 @@ This API and model is only for academic purposes so all data is not real.
   - `newspaper`: amount of investement used in newspaper media
 - Sales (`y` or `labels`):
   - `sales`: amount of money as income of investements
-![Advertising.csv original data](/images/SalesPredict.png)
+![Advertising.csv original data](/images/AdvertisingData.png)
 
 
 ## Model

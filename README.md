@@ -26,6 +26,6 @@ We used a simple `Lasso Regressor` just for creating a model that will be export
 
 ![Sales predict example with Postman](/images/SalesPredict.png)
 
-- `/api/v1/retrain`: use this for retraining model and receiving new Root Mean Squeared Error of the new model. It will write a new `pickle` file with the new model
+- `/api/v1/retrain`: use this for retraining model and receiving new `Root Mean Squeared Error` of the new model uploading a new `.csv` file with the same structure as `Advertisement.csv` original file. Also, this new file must be `retrain_file.csv` for being able to retrain the model. It will write a new `pickle` file with the new model. 
 
 ![Retrain example with Postman](/images/Retrain.png)
